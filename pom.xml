@@ -8,7 +8,7 @@
 		<version>3.5.9-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.iventario</groupId>
+	<groupId>com.inventario</groupId>
 	<artifactId>inventario-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>inventario-backend</name>
@@ -55,6 +55,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
 	</dependencies>
 
 	<build>

@@ -1,4 +1,4 @@
-package com.iventario.inventario_backend;
+package com.inventario.inventario_backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
