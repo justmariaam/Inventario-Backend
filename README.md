@@ -43,8 +43,7 @@ Para que el backend pueda conectarse correctamente a la base de datos, en el men
     | SPRING_DATASOURCE_PASSWORD| TU_PASSWORD |
     | SPRING_JPA_HIBERNATE_DDL_AUTO| update |
 
-3. Generar el dominio público. Selecionamos el proyecto creado, y en el menú nos vamos a "Configuración", y selecionamos "Generar Dominio,", Railway generará una URL similar a:https://inventario-backend-production-c7b0.up.railway.app, esta sera la dirección que utilizará el frontend para consumir la API.
-
+3. Generar el dominio público. Selecionamos el proyecto creado, y en el menú nos vamos a "Configuración", y selecionamos "Generar Dominio,", Railway generará una URL similar a:https://inventario-backend-production-c7b0.up.railway.app, esta sera la dirección que utilizará el frontend para consumir la API en los archivo /js/app.js,  registrar.html y editar.html en la parte del script .
 
 ## Base de datos local con Docker- MariaDB
 Si quieres usuar una bd local:
