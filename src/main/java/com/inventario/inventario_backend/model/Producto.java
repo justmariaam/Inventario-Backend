@@ -6,12 +6,15 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+// Esta es una entidad JPA que representa un producto en la base de datos
 @Entity
+// Especifica que esta entidad se mapea a la tabla "productos" en la BD
 @Table(name = "productos")
 public class Producto {
 
+    // ID único del producto, es la clave primaria
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Este ID se genera automáticamente por la base de datos 
     private Long id;
 
     private String nombre;
